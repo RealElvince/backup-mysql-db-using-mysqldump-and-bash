@@ -21,6 +21,6 @@ This Bash script automates the process of backing up a MySQL database and logs t
 Edit the script variables at the top of `mysql_backup.sh`:
 
 ```bash
-DATABASE="yourdatase"
+DATABASE="yourdatabase"
 BACKUP_DIR="/home/youruser/Desktop/backups/mysql_backup"
 LOG_FILE="/home/youruser/Desktop/backups/mysql_backup/mysql_backup.log"
